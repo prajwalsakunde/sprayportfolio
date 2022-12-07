@@ -1,10 +1,10 @@
 body{
-    margin: 0;
+    margin: 5%;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 .middle-container{
-    background-color:#FFFFFF ;
+    background-color:white;
 }
 .kkwagh{
     color:  #11999E;
@@ -50,28 +50,33 @@ hr{
 {
     background-color: #d1f5f5;
     position: relative;
-    padding-top:126px ;
+    padding-top:5%;
 }
 
 .logo-img{
-    position: absolute;
-    top: 3%;
-    left: 2%;
+    width: 4%;
+    position: relative;
+    right: 38%;
+    
 }
 
 .bottom-cloud{
-
-    position: absolute;
-    left: 25%;
-    bottom: 40%;
+    width: 11%;
+    position:relative;
+    right: 10%;
+    margin-bottom: 10%;
+    
+    
 }
 .top-cloud{
-    position: absolute;
-    top: 2%;
-    right: 25%;
+    width: 11%;
+    position: relative;
+    left: 23.4%;
+   
 }
 .main-mountain{
-    padding-top: 32px;
+    width: 26.5%;
+    position: relative;
 }
 
 .sun{
@@ -79,9 +84,8 @@ hr{
     top: 1%;
     left: 35%;
 }
-.Profile-photo{
-    position: relative;
-    left: 10px;
+.Profile-photo-1{
+   position: relative;
 }
 .skills-row-1{
     margin:100px auto 100px auto;
@@ -96,17 +100,19 @@ hr{
     line-height: 2;
 }
 .prog-img{
-    width: 25%;
+    position: relative;
+    width:15%;
     float: left;
-    margin-right: 40px;
+    margin-right: 7%;
 }
 .web-dev-img{
-    width: 25%;
+    width: 15%;
     float:right;
-    margin-left:40px ;
+    margin-left:7% ;
 }
 .middle-container{
     margin: 100px auto ;
+    max-width: 1600px;
 }
 .intr-msg{
     width: 30%;
@@ -154,6 +160,8 @@ hr{
 .bottom-container{
     background-color: #66bfbf ;
     padding: 50px 0 20px;
+    margin: auto;
+    max-width: 1600px;
 }
 .copyright{
     color: #eaf6f6;
