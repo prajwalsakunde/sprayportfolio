@@ -51,6 +51,8 @@ hr{
     background-color: #d1f5f5;
     position: relative;
     padding-top:5%;
+    margin: auto;
+    max-width: 1600px;
 }
 
 .logo-img{
@@ -176,5 +178,4 @@ a{
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
-
 }
